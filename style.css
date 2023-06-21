@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    border: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+label{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 13px;
+}
+
+input{
+    width: 65%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 70px;
+    border: 0.5px solid rgb(219, 215, 215);
+}
+
+a{
+    margin-left: 70px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.i{
+    font-size: 13px;
+}
+
+h5{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.login{
+    color: black;
+}
+
+h6{
+    margin-top: 5px;
+    margin-left: 75px;
+}
+
+button{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: rgb(66, 0, 128);
+    color: white;
+    align-items: center;
+    width: 65%;
+    transition: 0.5s ease-in-out;
+    height: 35px;
+    border: none;
+}
+
+.images{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+img{
+    width: 9%;
+    padding: 5px;
+    margin-left: 15px;
+    border: 1.5px solid rgb(223, 220, 220);
+}
